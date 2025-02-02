@@ -1,0 +1,43 @@
+agent_name: "MyMergedAgent"
+description: "An AI agent created by merging two frameworks using Genesis."
+version: "1.0.0"
+
+repositories:
+  - url: "https://github.com/user/framework1.git"
+    branch: "main"
+  - url: "https://github.com/user/framework2.git"
+    branch: "main"
+
+merge_strategy:
+  type: "sequential"  
+  custom_merge_file: "custom_merge.py" 
+
+input_data:
+  text: "This is the input data for the merged agent."
+  file: "" 
+
+deployment:
+  containerization: true  
+  resources:
+    cpu: 2 
+    memory: 4GB  
+  environment:
+    - key: "API_KEY"
+      value: "your_api_key_here"
+    - key: "LOG_LEVEL"
+      value: "INFO"
+
+docker:
+  image_name: "mymergedagent_image"
+  container_name: "mymergedagent_container"
+  base_image: "python:3.9"
+
+logging:
+  level: "INFO" 
+  output_path: "./logs/merged_agent.log"
+  format: "[%(asctime)s] %(levelname)s: %(message)s"
+
+output:
+  directory: "./output"
+  save_logs: true
+  save_results: true
