@@ -1,0 +1,6 @@
+GITHUB_TOKEN=your_github_personal_access_token
+DOCKER_HOST=unix:///var/run/docker.sock
+MERGE_STRATEGY=sequential
+LOG_LEVEL=INFO
+AGENT_OUTPUT_PATH=./output/merged_agent_logs
+API_KEY=your_api_key_here
