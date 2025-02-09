@@ -2,16 +2,16 @@
 Genesis is a universal meta-framework that merges two AI frameworks from GitHub repositories, combining their functionalities into a single deployable agent. It automates repository analysis, framework integration, and deployment using customizable merge strategies in a scalable, containerized environment.
 
 **Features**
-🔗 Merge Any AI Frameworks: Combine functionalities from two GitHub repositories seamlessly.
-⚙️ Customizable Merge Strategies: Choose from sequential, parallel, or custom merge logic.
-🚀 Automated Deployment: Containerized deployment using Docker for isolated, conflict-free environments.
-🛠 Developer-Friendly: Simple configuration with YAML and environment variables.
-📦 Open Source & Extensible: Easily customizable for new frameworks and use cases.
-**Use Cases**
-✅ AI-Powered Content & Research (NLP + Data Analysis)
-✅ Autonomous Coding & Debugging (AI Coding + Testing)
-✅ Social Media Automation with Market Insights (Twitter AI + Analytics)
-✅ Business Process Automation (LLMs + Decision-Making Agents)
+Merge Any AI Frameworks: Combine functionalities from two GitHub repositories seamlessly.
+Customizable Merge Strategies: Choose from sequential, parallel, or custom merge logic.
+Automated Deployment: Containerized deployment using Docker for isolated, conflict-free environments.
+Developer-Friendly: Simple configuration with YAML and environment variables.
+Open Source & Extensible: Easily customizable for new frameworks and use cases.
+**Use Cases** 
+AI-Powered Content & Research (NLP + Data Analysis)
+Autonomous Coding & Debugging (AI Coding + Testing)
+Social Media Automation with Market Insights (Twitter AI + Analytics)
+Business Process Automation (LLMs + Decision-Making Agents)
 
 **Quick Start**
 
